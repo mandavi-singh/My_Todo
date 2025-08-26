@@ -1,0 +1,33 @@
+<!doctype html>
+{% extends 'base.html' %}
+{% block title %} About {% endblock title %}
+
+{% block content %}
+<div class="container my-5">
+    <div class="card shadow-lg p-4">
+        <h2 class="mb-3">About MyTodo</h2>
+        <p>
+            MyTodo is a simple and elegant task management app built using 
+            <b>Flask</b>, <b>SQLite</b>, and <b>Bootstrap</b>. 
+            It helps you keep track of your daily tasks, update them when needed, 
+            and delete tasks once they’re done ✅.
+        </p>
+        <p>
+            Features include:
+        </p>
+        <ul>
+            <li>Add and manage your todos easily</li>
+            <li>Edit tasks anytime</li>
+            <li>Delete completed tasks</li>
+            
+        </ul>
+
+        <p class="mt-3">
+            This project is created as part of learning Flask and SQLAlchemy.  
+            It’s a great way to practice building <b>full-stack web applications</b>!
+        </p>
+
+        <a href="/" class="btn btn-primary mt-3">Back to Home</a>
+    </div>
+</div>
+{% endblock %}

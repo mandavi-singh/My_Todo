@@ -1,0 +1,65 @@
+/* General Page Styling */
+body {
+  background: linear-gradient(to right, #e0f7fa, #fce4ec);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  padding-top: 70px;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(45deg, #007bff, #6610f2);
+}
+.navbar-brand, .nav-link {
+  color: rgb(14, 11, 11) !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Container cards */
+.container {
+  background: #f7f5f5d9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* Headings */
+h2 {
+  font-weight: 600;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 8px;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 8px;
+  transition: 0.2s;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Table Styling */
+.table {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.table th {
+  background-color: #007bff;
+  color: white;
+}
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Alert */
+.alert {
+  border-radius: 8px;
+  font-weight: 500;
+}

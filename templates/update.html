@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block title %} Update Todo {% endblock title %}
+
+{% block content %}
+<div class="card shadow-lg p-4">
+  <h2 class="mb-3">Update Todo</h2>
+  <form action="/update/{{ todo.SNo }}" method="POST">
+    <div class="mb-3">
+      <label for="title" class="form-label">Todo Title</label>
+      <input type="text" class="form-control" id="title" name="title" value="{{ todo.title }}">
+    </div>
+    <div class="mb-3">
+      <label for="desc" class="form-label">Todo Description</label>
+      <input type="text" class="form-control" name="desc" id="desc" value="{{ todo.desc }}">
+    </div>
+    <button type="submit" class="btn btn-success">💾 Save</button>
+    <a href="/" class="btn btn-secondary">Cancel</a>
+  </form>
+</div>
+{% endblock %}
+
