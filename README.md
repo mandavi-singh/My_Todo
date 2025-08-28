@@ -72,6 +72,7 @@ Visit http://127.0.0.1:5000 to view your app locally.
 **🗂️ Project Structure**
 
 Project/
+
 ├─ app.py             # Main Flask application
 ├─ templates/         # HTML templates
 │  ├─ index.html
