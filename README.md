@@ -80,12 +80,15 @@ Project/
 │  ├─ index.html
 
 │  ├─ update.html
+
 │  └─ about.html
 
 ├─ static/
+
 │  └─ style.css
 
 ├─ requirements.txt   # Python dependencies
+
 └─ README.md
 
 **🔗 Deployment on Render**
