@@ -74,12 +74,17 @@ Visit http://127.0.0.1:5000 to view your app locally.
 Project/
 
 ├─ app.py             # Main Flask application
+
 ├─ templates/         # HTML templates
+
 │  ├─ index.html
+
 │  ├─ update.html
 │  └─ about.html
+
 ├─ static/
 │  └─ style.css
+
 ├─ requirements.txt   # Python dependencies
 └─ README.md
 
